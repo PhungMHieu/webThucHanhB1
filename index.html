@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thi trực tuyến</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="form-container">
+        <form id="sentForm" onclick="validateLogin()">
+            <h2>Thi trực tuyến</h2>
+            <label for="fullName">Họ và tên:</label>
+            <input type="text" id="fullName" name="fullName" required><br><br>
+            
+            <label for="dob">Ngày tháng năm sinh:</label>
+            <input type="date" id="dob" name="dob" required><br><br>
+            
+            <label for="studentId">Mã sinh viên:</label>
+            <input type="text" id="studentId" name="studentId" required><br><br>
+            
+            <label for="class">Lớp:</label>
+            <input type="text" id="class" name="class" required><br><br>
+            <!-- <input type="submit" value="sent"> -->
+            <button type="button" value="Gửi" onclick="addExams()">Gửi</button>    
+        </form>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -32,3 +32,11 @@
     background-color: #ddd;
     color: black;
 }
+.question{
+    margin: 0 auto; /* Để căn giữa các câu hỏi */
+    max-width: 600px; /* Điều chỉnh độ rộng tối đa của các câu hỏi */
+}
+button[type="submit"] {
+    display: block; /* Đảm bảo nút "Nộp bài" chiếm toàn bộ chiều ngang của container */
+    margin: 0 auto; /* Để căn giữa nút "Nộp bài" */
+}
